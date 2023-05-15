@@ -5,7 +5,7 @@ public class Main {
   {
     Product p=new Product();
     p.product(1,2);
-   p.product(1,2,3);
+     p.product(1,2,3);
     p.product(3.45,4.5666);
   }
 public static class Product
