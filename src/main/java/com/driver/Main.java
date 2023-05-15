@@ -8,11 +8,11 @@ public class Main {
    p.product(1,2,3);
     p.product(3.45,4.5666);
   }
-public static class Product
+public class Product
 {
-  public int product(int x, int y) { return x+y;}
-  public int product(int x, int y, int z) { return x+y+z;}
-  public double product(double x, double y) { return x+y;}
+  public static int product(int x, int y) { return x+y;}
+  public static int product(int x, int y, int z) { return x+y+z;}
+  public static double product(double x, double y) { return x+y;}
 }
 }
 
